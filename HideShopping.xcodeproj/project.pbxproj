@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C6E08B61C402B890040F546 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6E08B51C402B890040F546 /* AppDelegate.swift */; };
+		9C6E08B81C402B890040F546 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6E08B71C402B890040F546 /* ViewController.swift */; };
+		9C6E08BB1C402B890040F546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6E08B91C402B890040F546 /* Main.storyboard */; };
+		9C6E08BD1C402B890040F546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C6E08BC1C402B890040F546 /* Assets.xcassets */; };
+		9C6E08C01C402B890040F546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6E08BE1C402B890040F546 /* LaunchScreen.storyboard */; };
+		9C6E08CB1C402B8A0040F546 /* HideShoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6E08CA1C402B8A0040F546 /* HideShoppingTests.swift */; };
+		9C6E08D61C402B8A0040F546 /* HideShoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6E08D51C402B8A0040F546 /* HideShoppingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C6E08C71C402B8A0040F546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C6E08AA1C402B890040F546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C6E08B11C402B890040F546;
+			remoteInfo = HideShopping;
+		};
+		9C6E08D21C402B8A0040F546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C6E08AA1C402B890040F546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C6E08B11C402B890040F546;
+			remoteInfo = HideShopping;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C6E08B21C402B890040F546 /* HideShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6E08B51C402B890040F546 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C6E08B71C402B890040F546 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C6E08BA1C402B890040F546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C6E08BC1C402B890040F546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C6E08BF1C402B890040F546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C6E08C11C402B890040F546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C6E08C61C402B8A0040F546 /* HideShoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HideShoppingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6E08CA1C402B8A0040F546 /* HideShoppingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideShoppingTests.swift; sourceTree = "<group>"; };
+		9C6E08CC1C402B8A0040F546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C6E08D11C402B8A0040F546 /* HideShoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HideShoppingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6E08D51C402B8A0040F546 /* HideShoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideShoppingUITests.swift; sourceTree = "<group>"; };
+		9C6E08D71C402B8A0040F546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C6E08AF1C402B890040F546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C6E08C31C402B8A0040F546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C6E08CE1C402B8A0040F546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C6E08A91C402B890040F546 = {
+			isa = PBXGroup;
+			children = (
+				9C6E08B41C402B890040F546 /* HideShopping */,
+				9C6E08C91C402B8A0040F546 /* HideShoppingTests */,
+				9C6E08D41C402B8A0040F546 /* HideShoppingUITests */,
+				9C6E08B31C402B890040F546 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C6E08B31C402B890040F546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C6E08B21C402B890040F546 /* HideShopping.app */,
+				9C6E08C61C402B8A0040F546 /* HideShoppingTests.xctest */,
+				9C6E08D11C402B8A0040F546 /* HideShoppingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C6E08B41C402B890040F546 /* HideShopping */ = {
+			isa = PBXGroup;
+			children = (
+				9C6E08B51C402B890040F546 /* AppDelegate.swift */,
+				9C6E08B71C402B890040F546 /* ViewController.swift */,
+				9C6E08B91C402B890040F546 /* Main.storyboard */,
+				9C6E08BC1C402B890040F546 /* Assets.xcassets */,
+				9C6E08BE1C402B890040F546 /* LaunchScreen.storyboard */,
+				9C6E08C11C402B890040F546 /* Info.plist */,
+			);
+			path = HideShopping;
+			sourceTree = "<group>";
+		};
+		9C6E08C91C402B8A0040F546 /* HideShoppingTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C6E08CA1C402B8A0040F546 /* HideShoppingTests.swift */,
+				9C6E08CC1C402B8A0040F546 /* Info.plist */,
+			);
+			path = HideShoppingTests;
+			sourceTree = "<group>";
+		};
+		9C6E08D41C402B8A0040F546 /* HideShoppingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C6E08D51C402B8A0040F546 /* HideShoppingUITests.swift */,
+				9C6E08D71C402B8A0040F546 /* Info.plist */,
+			);
+			path = HideShoppingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C6E08B11C402B890040F546 /* HideShopping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C6E08DA1C402B8A0040F546 /* Build configuration list for PBXNativeTarget "HideShopping" */;
+			buildPhases = (
+				9C6E08AE1C402B890040F546 /* Sources */,
+				9C6E08AF1C402B890040F546 /* Frameworks */,
+				9C6E08B01C402B890040F546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HideShopping;
+			productName = HideShopping;
+			productReference = 9C6E08B21C402B890040F546 /* HideShopping.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C6E08C51C402B8A0040F546 /* HideShoppingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C6E08DD1C402B8A0040F546 /* Build configuration list for PBXNativeTarget "HideShoppingTests" */;
+			buildPhases = (
+				9C6E08C21C402B8A0040F546 /* Sources */,
+				9C6E08C31C402B8A0040F546 /* Frameworks */,
+				9C6E08C41C402B8A0040F546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C6E08C81C402B8A0040F546 /* PBXTargetDependency */,
+			);
+			name = HideShoppingTests;
+			productName = HideShoppingTests;
+			productReference = 9C6E08C61C402B8A0040F546 /* HideShoppingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C6E08D01C402B8A0040F546 /* HideShoppingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C6E08E01C402B8A0040F546 /* Build configuration list for PBXNativeTarget "HideShoppingUITests" */;
+			buildPhases = (
+				9C6E08CD1C402B8A0040F546 /* Sources */,
+				9C6E08CE1C402B8A0040F546 /* Frameworks */,
+				9C6E08CF1C402B8A0040F546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C6E08D31C402B8A0040F546 /* PBXTargetDependency */,
+			);
+			name = HideShoppingUITests;
+			productName = HideShoppingUITests;
+			productReference = 9C6E08D11C402B8A0040F546 /* HideShoppingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C6E08AA1C402B890040F546 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Craig Newcomb";
+				TargetAttributes = {
+					9C6E08B11C402B890040F546 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ZQJ9D5KQ5K;
+					};
+					9C6E08C51C402B8A0040F546 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ZQJ9D5KQ5K;
+						TestTargetID = 9C6E08B11C402B890040F546;
+					};
+					9C6E08D01C402B8A0040F546 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ZQJ9D5KQ5K;
+						TestTargetID = 9C6E08B11C402B890040F546;
+					};
+				};
+			};
+			buildConfigurationList = 9C6E08AD1C402B890040F546 /* Build configuration list for PBXProject "HideShopping" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C6E08A91C402B890040F546;
+			productRefGroup = 9C6E08B31C402B890040F546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C6E08B11C402B890040F546 /* HideShopping */,
+				9C6E08C51C402B8A0040F546 /* HideShoppingTests */,
+				9C6E08D01C402B8A0040F546 /* HideShoppingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C6E08B01C402B890040F546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C6E08C01C402B890040F546 /* LaunchScreen.storyboard in Resources */,
+				9C6E08BD1C402B890040F546 /* Assets.xcassets in Resources */,
+				9C6E08BB1C402B890040F546 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C6E08C41C402B8A0040F546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C6E08CF1C402B8A0040F546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C6E08AE1C402B890040F546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C6E08B81C402B890040F546 /* ViewController.swift in Sources */,
+				9C6E08B61C402B890040F546 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C6E08C21C402B8A0040F546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C6E08CB1C402B8A0040F546 /* HideShoppingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C6E08CD1C402B8A0040F546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C6E08D61C402B8A0040F546 /* HideShoppingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C6E08C81C402B8A0040F546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C6E08B11C402B890040F546 /* HideShopping */;
+			targetProxy = 9C6E08C71C402B8A0040F546 /* PBXContainerItemProxy */;
+		};
+		9C6E08D31C402B8A0040F546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C6E08B11C402B890040F546 /* HideShopping */;
+			targetProxy = 9C6E08D21C402B8A0040F546 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C6E08B91C402B890040F546 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C6E08BA1C402B890040F546 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C6E08BE1C402B890040F546 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C6E08BF1C402B890040F546 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C6E08D81C402B8A0040F546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C6E08D91C402B8A0040F546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C6E08DB1C402B8A0040F546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HideShopping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Craig-Newcomb.HideShopping";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C6E08DC1C402B8A0040F546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HideShopping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Craig-Newcomb.HideShopping";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C6E08DE1C402B8A0040F546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HideShoppingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Craig-Newcomb.HideShoppingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HideShopping.app/HideShopping";
+			};
+			name = Debug;
+		};
+		9C6E08DF1C402B8A0040F546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HideShoppingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Craig-Newcomb.HideShoppingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HideShopping.app/HideShopping";
+			};
+			name = Release;
+		};
+		9C6E08E11C402B8A0040F546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HideShoppingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Craig-Newcomb.HideShoppingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HideShopping;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9C6E08E21C402B8A0040F546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HideShoppingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Craig-Newcomb.HideShoppingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HideShopping;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C6E08AD1C402B890040F546 /* Build configuration list for PBXProject "HideShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C6E08D81C402B8A0040F546 /* Debug */,
+				9C6E08D91C402B8A0040F546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C6E08DA1C402B8A0040F546 /* Build configuration list for PBXNativeTarget "HideShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C6E08DB1C402B8A0040F546 /* Debug */,
+				9C6E08DC1C402B8A0040F546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C6E08DD1C402B8A0040F546 /* Build configuration list for PBXNativeTarget "HideShoppingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C6E08DE1C402B8A0040F546 /* Debug */,
+				9C6E08DF1C402B8A0040F546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C6E08E01C402B8A0040F546 /* Build configuration list for PBXNativeTarget "HideShoppingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C6E08E11C402B8A0040F546 /* Debug */,
+				9C6E08E21C402B8A0040F546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C6E08AA1C402B890040F546 /* Project object */;
+}
