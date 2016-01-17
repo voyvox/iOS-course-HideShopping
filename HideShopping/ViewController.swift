@@ -62,7 +62,9 @@ class ViewController: UIViewController {
     }
     
  
-
+/* 
+    
+    Original code for reference. I found out that using the block below is much more compact when using && to test if ALL are true. Note we don't need to test both the buttons and logos for hidden, because it is implied they are both hidden if one is hidden, given the behavior of the app; we could have just as easily checked all the buttons.
     
     func checkHidden() {
         if walmart.hidden == true {
@@ -74,7 +76,14 @@ class ViewController: UIViewController {
         } else{}
     }
     
+*/
     
+    
+    func checkHidden() {
+        if walmart.hidden == true && heb.hidden == true && wholeFood.hidden == true {
+            messageButton.hidden = false
+        }
+    }
 
 }
 
