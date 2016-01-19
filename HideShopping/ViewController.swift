@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var iconStack: UIStackView!
     @IBOutlet weak var messageButton: UIButton!
     @IBOutlet weak var heb: UIImageView!
 
@@ -41,6 +42,7 @@ class ViewController: UIViewController {
         heb.hidden = false
         hebButton.hidden = false
         messageButton.hidden = true
+        iconStack.hidden = false
         
     }
   
@@ -82,6 +84,7 @@ class ViewController: UIViewController {
     func checkHidden() {
         if walmart.hidden == true && heb.hidden == true && wholeFood.hidden == true {
             messageButton.hidden = false
+            iconStack.hidden = true
         }
     }
 

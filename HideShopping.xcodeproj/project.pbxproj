@@ -404,6 +404,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Craig-Newcomb.HideShopping";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -415,6 +416,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Craig-Newcomb.HideShopping";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -485,6 +487,7 @@
 				9C6E08DC1C402B8A0040F546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C6E08DD1C402B8A0040F546 /* Build configuration list for PBXNativeTarget "HideShoppingTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +496,7 @@
 				9C6E08DF1C402B8A0040F546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C6E08E01C402B8A0040F546 /* Build configuration list for PBXNativeTarget "HideShoppingUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +505,7 @@
 				9C6E08E21C402B8A0040F546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

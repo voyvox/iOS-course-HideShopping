@@ -3,6 +3,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,54 +16,15 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Whole-Foods-logo" translatesAutoresizingMaskIntoConstraints="NO" id="x8k-ui-zBR" userLabel="wholeFood">
-                                <rect key="frame" x="196" y="51" width="159" height="159"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Walmart-iPhone-icon" translatesAutoresizingMaskIntoConstraints="NO" id="KkN-OA-Ccw" userLabel="walmart">
-                                <rect key="frame" x="29" y="51" width="159" height="159"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7K-NC-0D1" userLabel="hideWalmart">
-                                <rect key="frame" x="77" y="435" width="221" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <size key="titleShadowOffset" width="1" height="2"/>
-                                <state key="normal" title="Hide Walmart">
-                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="hideWalmart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="es6-3S-5ht"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nBn-Q6-YyA" userLabel="hideWholeFood">
-                                <rect key="frame" x="77" y="498" width="221" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="1"/>
-                                <state key="normal" title="Hide Whole Foods">
-                                    <color key="titleColor" red="0.08235294118" green="0.35686274509999999" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="hideWholeFood:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z9v-8l-AP2"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kpL-it-LYZ" userLabel="hideHEB">
-                                <rect key="frame" x="77" y="558" width="221" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <size key="titleShadowOffset" width="1" height="2"/>
-                                <state key="normal" title="Hide HEB">
-                                    <color key="titleColor" red="0.80000000000000004" green="0.039215686274509803" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="hideHEB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cbp-Xy-goY"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HEB-logo" translatesAutoresizingMaskIntoConstraints="NO" id="xs6-pV-OCm">
-                                <rect key="frame" x="29" y="234" width="326" height="128"/>
-                            </imageView>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="67J-pj-VAn">
-                                <rect key="frame" x="-32" y="306" width="449" height="56"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="67J-pj-VAn">
+                                <rect key="frame" x="150" y="284" width="300" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="67J-pj-VAn" secondAttribute="height" multiplier="347:39" id="7iV-Xf-LmU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                 <state key="normal" title="Everything's Hidden. Tap to unhide.">
                                     <color key="titleColor" red="0.80000000000000004" green="0.63417167663567475" blue="0.18660721468406632" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -69,13 +32,107 @@
                                     <action selector="unhideButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W6S-dd-RS8"/>
                                 </connections>
                             </button>
+                            <stackView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="MwK-FG-YyX">
+                                <rect key="frame" x="198" y="440" width="204" height="126"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7K-NC-0D1" userLabel="hideWalmart">
+                                        <rect key="frame" x="0.0" y="0.0" width="204" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="j7K-NC-0D1" secondAttribute="height" multiplier="34:7" id="vgr-IX-TGR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="1" height="2"/>
+                                        <state key="normal" title="Hide Walmart">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="hideWalmart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="es6-3S-5ht"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nBn-Q6-YyA" userLabel="hideWholeFood">
+                                        <rect key="frame" x="0.0" y="42" width="204" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="nBn-Q6-YyA" secondAttribute="height" multiplier="34:7" id="I6a-xY-cMO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="2.2250738585072014e-308" height="1"/>
+                                        <state key="normal" title="Hide Whole Foods">
+                                            <color key="titleColor" red="0.08235294118" green="0.35686274509999999" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="hideWholeFood:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z9v-8l-AP2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kpL-it-LYZ" userLabel="hideHEB">
+                                        <rect key="frame" x="0.0" y="84" width="204" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="kpL-it-LYZ" secondAttribute="height" multiplier="34:7" id="LZr-vd-zH6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="1" height="2"/>
+                                        <state key="normal" title="Hide HEB">
+                                            <color key="titleColor" red="0.80000000000000004" green="0.039215686274509803" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="hideHEB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cbp-Xy-goY"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="204" id="80P-Rc-5jB"/>
+                                    <constraint firstAttribute="width" secondItem="MwK-FG-YyX" secondAttribute="height" multiplier="34:21" id="VWB-95-TQ4"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="io8-Qp-PdV" userLabel="IconStack">
+                                <rect key="frame" x="141" y="82" width="318" height="318"/>
+                                <subviews>
+                                    <stackView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D0a-JJ-E8s" userLabel="WalWholeStack">
+                                        <rect key="frame" x="0.0" y="0.0" width="318" height="159"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Walmart-iPhone-icon" translatesAutoresizingMaskIntoConstraints="NO" id="KkN-OA-Ccw" userLabel="walmart">
+                                                <rect key="frame" x="0.0" y="0.0" width="159" height="159"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="159" id="VyI-VD-x5O"/>
+                                                    <constraint firstAttribute="height" constant="159" id="YTi-OB-xYU"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Whole-Foods-logo" translatesAutoresizingMaskIntoConstraints="NO" id="x8k-ui-zBR" userLabel="wholeFood">
+                                                <rect key="frame" x="159" y="0.0" width="159" height="159"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="159" id="Lgr-q4-MNH"/>
+                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="159" id="p06-ub-f9z"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HEB-logo" translatesAutoresizingMaskIntoConstraints="NO" id="xs6-pV-OCm">
+                                        <rect key="frame" x="0.0" y="159" width="318" height="159"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="318" id="KIn-iN-OB4"/>
+                                            <constraint firstAttribute="height" constant="159" id="eV0-Bi-TOT"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="io8-Qp-PdV" secondAttribute="height" multiplier="1:1" id="vwf-qv-vif"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="io8-Qp-PdV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="36F-bJ-cx2"/>
+                            <constraint firstItem="67J-pj-VAn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="0.5" id="E8r-Me-Qe1"/>
+                            <constraint firstItem="67J-pj-VAn" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1.5" id="Jff-7F-Xin"/>
+                            <constraint firstItem="67J-pj-VAn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="SNX-wU-C9R"/>
+                            <constraint firstItem="MwK-FG-YyX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f6R-m9-lJr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="MwK-FG-YyX" secondAttribute="bottom" constant="34" id="ohd-DX-nVs"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="io8-Qp-PdV" secondAttribute="bottom" constant="200" id="vq7-YP-VDJ"/>
+                        </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="heb" destination="xs6-pV-OCm" id="RAg-T9-dbw"/>
                         <outlet property="hebButton" destination="kpL-it-LYZ" id="xMP-dH-EH1"/>
+                        <outlet property="iconStack" destination="io8-Qp-PdV" id="OLt-AT-j7c"/>
                         <outlet property="messageButton" destination="67J-pj-VAn" id="MfV-f3-Frt"/>
                         <outlet property="walmart" destination="KkN-OA-Ccw" id="LlL-35-kE2"/>
                         <outlet property="walmartButton" destination="j7K-NC-0D1" id="f9l-xu-xQP"/>
